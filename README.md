@@ -24,6 +24,9 @@ The following files can be safely added to your .gitignore file.
     # Visualizer headless build configuration files
     HeadlessBuild.properties
     HeadlessBuild-Global.properties
+    
+    # Visualizer modules which are automatically re-created when missing
+    modules/mbaasconfig.js
 
 ## Removing Noise
 
