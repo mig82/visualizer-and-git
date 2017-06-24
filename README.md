@@ -18,6 +18,10 @@ The following files can be safely added to your .gitignore file.
 
     # Other Visualizer auto-generated files.
     /.webmeta
+    
+    # Visualizer headless build configuration files
+    HeadlessBuild.properties
+    HeadlessBuild-Global.properties
 
 ## Removing Noise
 
