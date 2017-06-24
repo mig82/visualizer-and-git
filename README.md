@@ -16,6 +16,8 @@ The following files can be safely added to your .gitignore file.
     # Starting with Vis 7.3 the /sdkplugin.properties file has been moved to /resources/customlibs/sdkplugin.properties and can be automatically re-created by Vis.
     resources/customlibs/sdkplugin.properties
 
+    # Other Visualizer auto-generated files.
+    /.webmeta
 
 ## Removing Noise
 
