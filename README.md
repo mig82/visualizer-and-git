@@ -1,4 +1,5 @@
-# vis-git
+# Best Practices on using Kony Visualizer with Git
+
 Tips and tricks to use Git with Kony Visualizer projects.
 
 ## What to Ignore
@@ -39,4 +40,13 @@ For convenience you can just copy and execute these lines:
     git update-index --assume-unchanged projectProperties.json
     git update-index --assume-unchanged context.properties
     git update-index --assume-unchanged defaults/defaults.properties
+    
+## The Empty Directory Problem
+
+When a Vis project is created a lot of empty directories are added to it's structure. Sadly, Git does not version directories, but files *in* directories. So empty directories are not versioned. This means if a brand new project is pushed to a git repo, those empty directories won't be pushed. The problem with this is that when the project is cloned by another developer, they will be unable to open the project. Vis will crash upon failing to find the directory structure it expects.
+
+To get around this problem, you must force Git to push directories to source control. This can be done by adding a `.gitkeep` file to each empty directory. To do so, have a look at project Gitkeep [here](https://github.com/mig82/gitkeep)
+
+### Notes
+* Vis appears to be capable of re-creating the directories under `resources/i18n` so no need to keep those.
     
