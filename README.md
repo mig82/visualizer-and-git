@@ -68,4 +68,4 @@ These files were updated by selecting a different environment/cloud in the `Proj
 * projectprop.xml
 * context.properties
 * defaults/defaults.properties
-
+* syncclientcode.zip
