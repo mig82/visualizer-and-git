@@ -52,4 +52,20 @@ To get around this problem, you must force Git to push directories to source con
 
 ### Notes
 * Vis appears to be capable of re-creating the directories under `resources/i18n` so no need to keep those.
-    
+
+## Other Candidates for Ignoring
+
+The following is a list of files I've seen Visualizer update on it's own without good reason and so I've yet to validate whether these can be `.gitignore` or not.
+
+These files where updated just by opening a project:
+
+* projectProperties.json
+* modules/KonySyncLib.js
+* modules/kony_sdk.js
+
+These files were updated by selecting a different environment/cloud in the `Project Settings>Mobile Fabric>MobileFabric Environment` menu option in Visualizer:
+
+* projectprop.xml
+* context.properties
+* defaults/defaults.properties
+
