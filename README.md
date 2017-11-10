@@ -20,6 +20,7 @@ The following files can be safely added to your .gitignore file.
     # Other Visualizer auto-generated files.
     /.webmeta
     middleware.properties
+    splashscreenproperties.json
     
     # Visualizer headless build configuration files
     HeadlessBuild.properties
@@ -27,6 +28,7 @@ The following files can be safely added to your .gitignore file.
     
     # Visualizer modules which are automatically re-created when missing
     modules/mbaasconfig.js
+    
 
 ## Removing Noise
 
