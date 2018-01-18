@@ -71,3 +71,7 @@ These files were updated by selecting a different environment/cloud in the `Proj
 * context.properties
 * defaults/defaults.properties
 * syncclientcode.zip
+
+# Auxiliary files generated during a build to expose the widget ID's for testing.
+resources/mobile/native/android/values/widgetids.xml
+resources/tablet/native/androidtab/values/widgetids.xml
