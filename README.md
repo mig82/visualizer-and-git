@@ -29,6 +29,9 @@ The following files can be safely added to your .gitignore file.
     # Visualizer modules which are automatically re-created when missing
     modules/mbaasconfig.js
     
+    # Auxiliary files generated during a build to expose the widget ID's for testing.
+    resources/mobile/native/android/values/widgetids.xml
+    resources/tablet/native/androidtab/values/widgetids.xml
 
 ## Removing Noise
 
@@ -71,7 +74,3 @@ These files were updated by selecting a different environment/cloud in the `Proj
 * context.properties
 * defaults/defaults.properties
 * syncclientcode.zip
-
-# Auxiliary files generated during a build to expose the widget ID's for testing.
-resources/mobile/native/android/values/widgetids.xml
-resources/tablet/native/androidtab/values/widgetids.xml
