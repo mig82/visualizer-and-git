@@ -33,6 +33,9 @@ The following files can be safely added to your .gitignore file.
     # Auxiliary files generated during a build to expose the widget ID's for testing.
     resources/mobile/native/android/values/widgetids.xml
     resources/tablet/native/androidtab/values/widgetids.xml
+    
+    # NPM dependencies folder when for apps using Cordova. Apparently only needed when not using a global Cordova installation.
+    node_modules
 
 ## Removing Noise
 
