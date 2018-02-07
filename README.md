@@ -36,6 +36,10 @@ The following files can be safely added to your .gitignore file.
     
     # NPM dependencies folder when for apps using Cordova. Apparently only needed when not using a global Cordova installation.
     node_modules
+    
+    # Cordova plugins and platforms directories can be ignored as with any Cordova project.
+    web/cordova/plugins
+    web/cordova/platforms
 
 ## Removing Noise
 
