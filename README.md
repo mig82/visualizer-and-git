@@ -82,3 +82,8 @@ These files were updated by selecting a different environment/cloud in the `Proj
 * context.properties
 * defaults/defaults.properties
 * syncclientcode.zip
+
+These files were created by updating a Visualizer 8.1 project for the first time.
+* appSettings.xml: Apparently enables builds for the different platforms in the UI. Doesn't seem important.
+* projectsplash.xml: Defines the splash screen. Seems part of the project.
+* windowsViews.xml: Not a clue
