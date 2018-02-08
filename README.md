@@ -40,6 +40,9 @@ The following files can be safely added to your .gitignore file.
     # Cordova plugins and platforms directories can be ignored as with any Cordova project.
     web/cordova/plugins
     web/cordova/platforms
+    
+    # Auto-generated temporary internationalization files
+    resources/i18n/
 
 ## Removing Noise
 
