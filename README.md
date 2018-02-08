@@ -10,6 +10,9 @@ The following files can be safely added to your .gitignore file.
     /jssrc/*
     !/resources/customlibs/jsSrc
     
+    # Starting with Visualizer 8.0 the Ant Contrib Jar used throughout the build process will be regenerated when the build is fired.
+    ant-contrib-0.6.jar
+
     # Binaries.
     /binaries
     *.apk
