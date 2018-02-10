@@ -63,6 +63,8 @@ To ignore these files after they've been pushed to your repo for the first time 
 
 For convenience you can just copy and execute these lines:
 
+    git update-index --assume-unchanged run.sh
+    git update-index --assume-unchanged run.bat
     git update-index --assume-unchanged projectProperties.json
     git update-index --assume-unchanged context.properties
     git update-index --assume-unchanged defaults/defaults.properties
