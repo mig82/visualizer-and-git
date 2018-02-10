@@ -50,6 +50,11 @@ The following files can be safely added to your .gitignore file.
     
     # Logs created by building from the command line.
     velocity.log
+    
+    # Be careful not to ignore these jars or the Android build will break.
+    # As far as I can tell they're only generated the first time the project is ever built.
+    !resources/customlibs/lib/android/*jar
+    !resources/customlibs/lib/tabrcandroid/*jar
 
 ## Removing Noise
 
