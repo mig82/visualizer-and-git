@@ -41,6 +41,7 @@ The following files can be safely added to your .gitignore file.
     node_modules
     
     # Cordova plugins and platforms directories can be ignored as with any Cordova project.
+    cordovatemp
     web/cordova/plugins
     web/cordova/platforms
     
