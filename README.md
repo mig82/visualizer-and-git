@@ -47,6 +47,9 @@ The following files can be safely added to your .gitignore file.
     
     # Auto-generated temporary internationalization files
     resources/i18n/
+    
+    # Logs created by building from the command line.
+    velocity.log
 
 ## Removing Noise
 
