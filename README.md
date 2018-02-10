@@ -94,3 +94,6 @@ These files were created by updating a Visualizer 8.1 project for the first time
 * appSettings.xml: Apparently enables builds for the different platforms in the UI. Doesn't seem important.
 * projectsplash.xml: Defines the splash screen. Seems part of the project.
 * windowsViews.xml: Not a clue
+
+Not sure about this folder yet. It contains stuff -e.g. `Kony_SyncV2-iOS-11.0.zip` and `Kony_SyncV2-Android-4.0.zip`- related to Sync and it was generated when I created the project.
+* nativebindings
