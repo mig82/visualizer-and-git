@@ -4,7 +4,11 @@ Tips and tricks to use Git with Kony Visualizer projects.
 
 ## What to Ignore
 
-The following files can be safely added to your .gitignore file.
+Figuring out what to ignore and what to version in a Visualizer project is the subject of many questions. The cross-platform nature of Visualizer makes for a very complex project anatomy. I've done my best to experiment with different versions of Visualizer and document my findings here. If you just want to get started quickly and all you need is a `.gitignore` file, then step into the root directory of your Visualizer project and run:
+
+    curl https://raw.githubusercontent.com/mig82/vis-git/master/.gitignore > .gitignore
+
+The `.gitignore` you'll get is self documented, but if you want to have a quick look:
 
     # Auto-generated javascript. It's important to note that jssrc at the project root
     # can be ignored, but resources/customlibs/jsSrc must NOT be ignored because it stores
@@ -109,6 +113,8 @@ The following files can be safely added to your .gitignore file.
     resources/customlibs/jsXml/binary.util.xml
     resources/customlibs/jsXml/binarydata.js
     resources/customlibs/jsXml/binarydata.xml    
+
+**Note:** I may remove the code block above from this `README` file at some point and just direct you to the `.gitignore`. We'll see. I'm chewing on it.
 
 ## Removing Noise
 
