@@ -38,6 +38,13 @@ splashscreenproperties.json
 HeadlessBuild.properties
 HeadlessBuild-Global.properties
 
+# Sync NFI bindings and implementations
+/nativeapi.json
+/nativebindings/Android/*/Kony_SyncV2-Android-*.zip
+/nativebindings/Android/*/Kony_SyncV2-Android-*/tern.json
+/nativebindings/iOS/*/Kony_SyncV2-iOS-*.zip
+/nativebindings/iOS/*/Kony_SyncV2-iOS-*/tern.json
+
 # Visualizer modules which are automatically re-created when missing
 modules/mbaasconfig.js
 
