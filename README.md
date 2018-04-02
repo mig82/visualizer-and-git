@@ -25,17 +25,12 @@ For convenience you can just copy and execute these lines:
     git update-index --assume-unchanged run.sh
     git update-index --assume-unchanged run.bat
     git update-index --assume-unchanged projectProperties.json
-    git update-index --assume-unchanged context.properties
-    git update-index --assume-unchanged defaults/defaults.properties
     
 ## The Empty Directory Problem
 
 When a Vis project is created a lot of empty directories are added to it's structure. Sadly, Git does not version directories, but files *in* directories. So empty directories are not versioned. This means if a brand new project is pushed to a git repo, those empty directories won't be pushed. The problem with this is that when the project is cloned by another developer, they will be unable to open the project. Vis will crash upon failing to find the directory structure it expects.
 
 To get around this problem, you must force Git to push directories to source control. This can be done by adding a `.gitkeep` file to each empty directory. To do so, have a look at project Gitkeep [here](https://github.com/mig82/gitkeep)
-
-### Notes
-* Vis appears to be capable of re-creating the directories under `resources/i18n` so no need to keep those.
 
 ## Other Candidates for Ignoring
 
@@ -50,11 +45,4 @@ These files where updated just by opening a project:
 These files were updated by selecting a different environment/cloud in the `Project Settings>Mobile Fabric>MobileFabric Environment` menu option in Visualizer:
 
 * projectprop.xml
-* context.properties
-* defaults/defaults.properties
 * syncclientcode.zip
-
-These files were created by updating a Visualizer 8.1 project for the first time.
-* appSettings.xml: Apparently enables builds for the different platforms in the UI. Doesn't seem important.
-* projectsplash.xml: Defines the splash screen. Seems part of the project.
-* windowsViews.xml: Not a clue
