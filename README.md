@@ -38,7 +38,6 @@ The following is a list of files I've seen Visualizer update on it's own without
 
 These files where updated just by opening a project:
 
-* projectProperties.json
 * modules/KonySyncLib.js
 * modules/kony_sdk.js
 
