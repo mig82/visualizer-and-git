@@ -39,7 +39,7 @@ middleware.properties
 HeadlessBuild.properties
 HeadlessBuild-Global.properties
 
-# Sync NFI bindings and implementations
+# Out-of-the-box NFI bindings for Sync
 /nativeapi.json
 /nativebindings/Android/*/Kony_SyncV2-Android-*.zip
 /nativebindings/Android/*/Kony_SyncV2-Android-*/tern.json
@@ -109,3 +109,11 @@ resources/customlibs/jsXml/binary.util.js
 resources/customlibs/jsXml/binary.util.xml
 resources/customlibs/jsXml/binarydata.js
 resources/customlibs/jsXml/binarydata.xml 
+
+# Auto-generated project setting files. Generated the first time you save project settings, even if no changes were made.
+/_clouddata/
+/appSettings.xml
+/context.properties
+/defaults/
+/projectsplash.xml
+/windowsViews.xml
