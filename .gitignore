@@ -32,7 +32,6 @@ resources/customlibs/lib/winphone10/
 # Other Visualizer auto-generated files.
 /.webmeta
 middleware.properties
-splashscreenproperties.json
 
 # Visualizer headless build configuration files
 HeadlessBuild.properties
