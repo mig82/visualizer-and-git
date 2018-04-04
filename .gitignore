@@ -15,8 +15,9 @@ ant-contrib-0.6.jar
 *.KAR
 
 # Starting with Vis 7.3 the /sdkplugin.properties file has been moved to
-# /resources/customlibs/sdkplugin.properties and can be automatically re-created by Vis
-# during the build.
+# `/resources/customlibs/sdkplugin.properties` and can be automatically re-created by Vis
+# during the build, provided that folder `resources/customlibs` exists -consider adding a `.gitkeep` file to it
+# in order to force it into source control.
 resources/customlibs/sdkplugin.properties
 
 # The jar's and zip's under these directories can be ignored so long as
@@ -31,15 +32,19 @@ resources/customlibs/lib/winphone10/
 
 # Other Visualizer auto-generated files.
 /.webmeta
+/.meta
 middleware.properties
-splashscreenproperties.json
 
 # Visualizer headless build configuration files
 HeadlessBuild.properties
 HeadlessBuild-Global.properties
 
-# Visualizer modules which are automatically re-created when missing
-modules/mbaasconfig.js
+# Out-of-the-box NFI bindings for Sync
+/nativeapi.json
+/nativebindings/Android/*/Kony_SyncV2-Android-*.zip
+/nativebindings/Android/*/Kony_SyncV2-Android-*/tern.json
+/nativebindings/iOS/*/Kony_SyncV2-iOS-*.zip
+/nativebindings/iOS/*/Kony_SyncV2-iOS-*/tern.json
 
 # Auxiliary files generated during a build to expose the widget ID's for testing.
 resources/mobile/native/android/values/widgetids.xml
@@ -101,3 +106,11 @@ resources/customlibs/jsXml/binary.util.js
 resources/customlibs/jsXml/binary.util.xml
 resources/customlibs/jsXml/binarydata.js
 resources/customlibs/jsXml/binarydata.xml 
+
+# Auto-generated project setting files. Generated the first time you save project settings, even if no changes were made.
+/_clouddata/
+/appSettings.xml
+/context.properties
+/defaults/
+/projectsplash.xml
+/windowsViews.xml
