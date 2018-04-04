@@ -15,8 +15,9 @@ ant-contrib-0.6.jar
 *.KAR
 
 # Starting with Vis 7.3 the /sdkplugin.properties file has been moved to
-# /resources/customlibs/sdkplugin.properties and can be automatically re-created by Vis
-# during the build.
+# `/resources/customlibs/sdkplugin.properties` and can be automatically re-created by Vis
+# during the build, provided that folder `resources/customlibs` exists -consider adding a `.gitkeep` file to it
+# in order to force it into source control.
 resources/customlibs/sdkplugin.properties
 
 # The jar's and zip's under these directories can be ignored so long as
