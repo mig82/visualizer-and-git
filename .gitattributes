@@ -1,0 +1,11 @@
+#Project settings.
+projectProperties.json filter=kony_projectProperties
+projectprop.xml filter=kony_projectprop
+
+#Depending on naming convention for forms...
+forms/**/*.sm/*.json filter=kony_forms
+templates/**/*.sm/*.json filter=kony_forms
+userwidgets/**/*.sm/*.json filter=kony_forms
+
+#If you choose to version HeadlessBuild.properties file.
+HeadlessBuild.properties filter=kony_headless_props
