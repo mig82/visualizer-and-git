@@ -2,10 +2,10 @@
 projectProperties.json filter=kony_projectProperties
 projectprop.xml filter=kony_projectprop
 
-#Depending on naming convention for forms...
+#Filter all forms and their widgets, as well as widgets in templates and custom widgets or components.
 forms/**/*.sm/*.json filter=kony_forms
 templates/**/*.sm/*.json filter=kony_forms
 userwidgets/**/*.sm/*.json filter=kony_forms
 
-#If you choose to version HeadlessBuild.properties file.
+#If you choose to version HeadlessBuild.properties file, then any passwords from it.
 HeadlessBuild.properties filter=kony_headless_props
