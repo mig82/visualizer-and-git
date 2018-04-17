@@ -11,4 +11,4 @@ userwidgets/**/*.sm/*.json filter=kony_forms
 HeadlessBuild.properties filter=kony_headless_props
 
 # Clean javascript files from all lines containing nothing but white spaces and tabs.
-modules/**/*.js filter=rm_whiteline
+#modules/**/*.js filter=rm_whiteline
