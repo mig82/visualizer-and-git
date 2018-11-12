@@ -3,3 +3,4 @@ git config --global filter.kony_projectProperties.clean "jq --indent 4 --sort-ke
 git config --global filter.kony_forms.clean "jq --indent 4 'del(.device, .prevDevice, .platform, .prevPlatform, .shellCSS, .context.platform, currentLocale)'"
 git config --global filter.kony_headless_props.clean 'sed -e "s/\(.*password.*=\).*/\1/"'
 git config --global filter.rm_whiteline.clean 'sed -e "s/^[[:blank:]]+$//"'
+git config --global filter.kony_fabric_config.clean "jq --indent 4 --sort-keys ."
