@@ -41,8 +41,10 @@ HeadlessBuild-Global.properties
 
 # Out-of-the-box NFI bindings for Sync
 /nativeapi.json
+/nativebindings/Android/*/Kony_SDKCommons-Android-*.zip
 /nativebindings/Android/*/Kony_SyncV2-Android-*.zip
 /nativebindings/Android/*/Kony_SyncV2-Android-*/tern.json
+/nativebindings/iOS/*/Kony_SDKCommons-iOS-*.zip
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*.zip
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*/tern.json
 
@@ -105,7 +107,7 @@ resources/customlibs/jsSrc/tabrcandroid/com/konylabs/ffi/N_binarydata.java
 resources/customlibs/jsXml/binary.util.js
 resources/customlibs/jsXml/binary.util.xml
 resources/customlibs/jsXml/binarydata.js
-resources/customlibs/jsXml/binarydata.xml 
+resources/customlibs/jsXml/binarydata.xml
 
 # Auto-generated project setting files. Generated the first time you save project settings, even if no changes were made.
 /_clouddata/
