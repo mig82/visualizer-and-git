@@ -116,3 +116,6 @@ resources/customlibs/jsXml/binarydata.xml
 /defaults/
 /projectsplash.xml
 /windowsViews.xml
+
+# Log files
+*.log
