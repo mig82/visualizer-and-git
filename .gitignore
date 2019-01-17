@@ -48,6 +48,10 @@ HeadlessBuild-Global.properties
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*.zip
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*/tern.json
 
+# Out-of-the-box Kony SDK Commons
+/nativebindings/Android/4.0/Kony_SDKCommons-Android-*
+/nativebindings/iOS/*/Kony_SDKCommons-iOS-*
+
 # Auxiliary files generated during a build to expose the widget ID's for testing.
 resources/mobile/native/android/values/widgetids.xml
 resources/tablet/native/androidtab/values/widgetids.xml
