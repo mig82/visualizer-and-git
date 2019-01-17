@@ -119,3 +119,6 @@ resources/customlibs/jsXml/binarydata.xml
 
 # Log files
 *.log
+
+# Viskit code review tool. Read more at https://www.npmjs.com/package/viskit
+/.viskit
