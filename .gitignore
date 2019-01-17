@@ -121,6 +121,9 @@ resources/customlibs/jsXml/binarydata.xml
 /projectsplash.xml
 /windowsViews.xml
 
+# Sync code bundle, downloaded from the Sync server, but then extracted and versioned thereafter.
+syncclientcode.zip
+
 # Log files
 *.log
 
