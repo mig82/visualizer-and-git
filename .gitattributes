@@ -3,9 +3,10 @@ projectProperties.json filter=kony_projectProperties
 projectprop.xml filter=kony_projectprop
 
 # Filter all forms and their widgets, as well as widgets in templates and custom widgets or components.
-forms/**/*.sm/*.json filter=kony_forms
-templates/**/*.sm/*.json filter=kony_forms
-userwidgets/**/*.sm/*.json filter=kony_forms
+forms/**/*.sm/*.json filter=kony_views
+popups/**/*.sm/*.json filter=kony_views
+templates/**/*.sm/*.json filter=kony_views
+userwidgets/**/*.sm/*.json filter=kony_views
 
 # If you choose to version HeadlessBuild.properties file, then any passwords from it.
 HeadlessBuild.properties filter=kony_headless_props
@@ -14,4 +15,5 @@ HeadlessBuild.properties filter=kony_headless_props
 #modules/**/*.js filter=rm_whiteline
 
 # Prettify and sort the file where Visualizer stores the Fabric services config.
-mobileFabricServiceConfigMap.json filter=kony_fabric_config
+mobileFabricServiceConfigMap.json filter=pretty_json
+objectServicesConfigMap.json filter=pretty_json
