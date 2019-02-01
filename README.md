@@ -65,6 +65,28 @@ This is applied to both `mobileFabricServiceConfigMap.json` and
 `objectServicesConfigMap.json` by the `.gitattributes` file which you *must* add
  *and* version along with your project.
 
+## Dependencies
+
+The filters mentioned above which apply to JSON files -e.g.: `projectProperties.json`,
+`mobileFabricServiceConfigMap.json`, as well as any JSON file describing a form,
+widget, skin, popup, template, or the like, require a third party tool capable of
+prettifying, sorting and transforming JSON files with ease. If you look closely at
+`filters.sh` you'll see that this tool is the `jq` command.
+
+> jq is a lightweight and flexible command-line JSON processor.
+
+You can download and install the **jq** binaries from [here](https://stedolan.github.io/jq).
+
+You can also find additional installation alternatives using package managers such as Homebrew, Chocolatey or directly from Github [here](https://github.com/stedolan/jq/wiki/Installation).
+
+If you're a Mac user, then I strongly recommend using [Homebrew](https://brew.sh/):
+
+    $ brew install jq
+
+**Note:** I regularly use **jq** to inspect my projects' forms and widgets -e.g.:
+
+    jq . forms/mobile/homeForm.sm/bodyFlex.json --sort-keys --tab
+
 ## Security
 
 If you've decided to version your `HeadlessBuild.properties` file along with your
