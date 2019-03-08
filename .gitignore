@@ -136,5 +136,8 @@ syncclientcode.zip
 # Log files
 *.log
 
+# App preview and Vis review annotations
+/annotations
+
 # Viskit code review tool. Read more at https://www.npmjs.com/package/viskit
 /.viskit
