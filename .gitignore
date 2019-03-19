@@ -52,7 +52,9 @@ HeadlessBuild-Global.properties
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*/tern.json
 
 # Out-of-the-box NFI bindings for File Storage, from v8 SP4 onwards
+/nativebindings/Android/*/Kony_FileStorage-Android-*.zip
 /nativebindings/Android/*/Kony_FileStorage-Android-*/tern.json
+/nativebindings/iOS/*/Kony_FileStorage-iOS-*.zip
 /nativebindings/iOS/*/Kony_FileStorage-iOS-*/tern.json
 
 # Out-of-the-box Kony SDK Commons
