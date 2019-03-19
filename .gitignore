@@ -33,7 +33,10 @@ resources/customlibs/lib/winphone10/
 # Other Visualizer auto-generated files.
 /.webmeta
 /.meta
-middleware.properties
+/middleware.properties
+
+# IMPORTANT: This must NEVER be placed in SCM because it stores the app's key and secret.
+/mBaas.properties
 
 # Visualizer headless build configuration files
 HeadlessBuild.properties
