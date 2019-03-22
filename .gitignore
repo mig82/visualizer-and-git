@@ -144,5 +144,8 @@ syncclientcode.zip
 # App preview and Vis review annotations
 /annotations
 
+# Vis copies every font from every channel to the fonts root folder at build time.
+/resources/*.ttf
+
 # Viskit code review tool. Read more at https://www.npmjs.com/package/viskit
 /.viskit
