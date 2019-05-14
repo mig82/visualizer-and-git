@@ -31,7 +31,6 @@ resources/customlibs/lib/windows10/
 resources/customlibs/lib/winphone10/
 
 # Other Visualizer auto-generated files.
-/.webmeta
 /.meta
 /middleware.properties
 
