@@ -20,3 +20,6 @@ git config --global filter.kony_views.clean "jq --indent 4 -j 'del(.device, .pre
 
 # Prettify and sort generic JSON files such as mobileFabricServiceConfigMap.json and objectServicesConfigMap.json
 git config --global filter.pretty_json.clean "jq --indent 4 --sort-keys ."
+
+# Version nativeapi.json but not the properties inside it that store absolute paths.
+git config --global filter.kony_native_api_json.clean "jq --indent 4 -j 'del(..|(.url?,.filepath?))'"
