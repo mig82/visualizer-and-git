@@ -46,11 +46,13 @@ HeadlessBuild-Global.properties
 # file is necessary if the project uses user-defined NFI's.
 !/nativeapi.json
 
-# Out-of-the-box NFI bindings for Sync
+# Out-of-the-box NFI bindings for the standard SDK.
 /nativebindings/Android/*/Kony_SDKCommons-Android-*.zip
+/nativebindings/iOS/*/Kony_SDKCommons-iOS-*.zip
+
+# Out-of-the-box NFI bindings for Sync
 /nativebindings/Android/*/Kony_SyncV2-Android-*.zip
 /nativebindings/Android/*/Kony_SyncV2-Android-*/tern.json
-/nativebindings/iOS/*/Kony_SDKCommons-iOS-*.zip
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*.zip
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*/tern.json
 
