@@ -31,7 +31,6 @@ resources/customlibs/lib/windows10/
 resources/customlibs/lib/winphone10/
 
 # Other Visualizer auto-generated files.
-/.webmeta
 /.meta
 /middleware.properties
 
@@ -42,12 +41,18 @@ resources/customlibs/lib/winphone10/
 HeadlessBuild.properties
 HeadlessBuild-Global.properties
 
-# Out-of-the-box NFI bindings for Sync
-/nativeapi.json
+# Do not ignore this file. It stores mappings for all NFI's. The out-of-the-box
+# NFI's can be regenerated during build, but the user-defined ones can't, so this
+# file is necessary if the project uses user-defined NFI's.
+!/nativeapi.json
+
+# Out-of-the-box NFI bindings for the standard SDK.
 /nativebindings/Android/*/Kony_SDKCommons-Android-*.zip
+/nativebindings/iOS/*/Kony_SDKCommons-iOS-*.zip
+
+# Out-of-the-box NFI bindings for Sync
 /nativebindings/Android/*/Kony_SyncV2-Android-*.zip
 /nativebindings/Android/*/Kony_SyncV2-Android-*/tern.json
-/nativebindings/iOS/*/Kony_SDKCommons-iOS-*.zip
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*.zip
 /nativebindings/iOS/*/Kony_SyncV2-iOS-*/tern.json
 
