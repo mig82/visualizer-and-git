@@ -1,3 +1,8 @@
+#############################################################
+# From https://github.com/mig82/visualizer-and-git          #
+# @Author: Miguelangel Fernandez                            #
+#############################################################
+
 # Auto-generated javascript. It's important to note that jssrc at the project root
 # can be ignored, but resources/customlibs/jsSrc must NOT be ignored because it stores
 # FFI binding code which can only be generated during development.

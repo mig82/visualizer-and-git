@@ -1,3 +1,8 @@
+#############################################################
+# From https://github.com/mig82/visualizer-and-git          #
+# @Author: Miguelangel Fernandez                            #
+#############################################################
+
 # To fire your Git client of choice or the Terminal from Visualizer's `Window>Version` Control menu option.
 #git config --global --add alias.gui '!sh -c /usr/local/git/libexec/git-core/git-gui'
 #git config --global --add alias.gui '!sh -c /usr/local/Cellar/git/2.16.3/libexec/git-core/git-gui'
@@ -11,3 +16,5 @@ git config --global alias.unmute 'update-index --no-assume-unchanged'
 
 # To create a zip archive of your project.
 git config --global alias.zip '!git clean -fXd && git archive --format zip -9 HEAD --output $1 && ls -lh $1'
+
+echo "Done: Git aliases for Visualizer"

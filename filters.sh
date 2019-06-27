@@ -1,3 +1,8 @@
+#############################################################
+# From https://github.com/mig82/visualizer-and-git          #
+# @Author: Miguelangel Fernandez                            #
+#############################################################
+
 # Run this script in order to define the filters that will prettify some of the
 # files in your visualizer project and ignore the non-important metadata in some
 # of the project files. The --global flag ensures you only have to do this once
@@ -23,3 +28,5 @@ git config --global filter.pretty_json.clean "jq --indent 4 --sort-keys ."
 
 # Version nativeapi.json but not the properties inside it that store absolute paths.
 git config --global filter.kony_native_api_json.clean "jq --indent 4 -j 'del(..|(.url?,.filepath?))'"
+
+echo "Done: Git filters for Visualizer"
