@@ -2,6 +2,38 @@
 
 Tips and tricks to use Git with Kony Visualizer projects.
 
+## Quick Start
+
+To get started just copy, paste and execute this into your terminal.
+
+```bash
+brew install jq
+git config --global alias.visconfig '!curl -L http://bit.ly/visgitaliases -o aliases.sh && \
+ curl -L http://bit.ly/visgitfilters -o filters.sh && \
+ chmod u+x aliases.sh && ./aliases.sh && \
+ chmod u+x filters.sh && ./filters.sh && \
+ rm aliases.sh && rm filters.sh'
+git visconfig
+```
+This will download and run the filter and alias definitions.
+Then, step into the root of your project and run:
+
+```bash
+git visinit
+```
+
+This will download the `.gitignore` and `.gitattributes` files into the root of your project.
+
+**Done!** It's that simple.
+
+Now, if you ever want to update the aliases and filters to the latest published to the master branch of this repository run:
+
+```bash
+git visconfig
+```
+
+Now read on if you want to find out what you just did.
+
 ## What to Ignore
 
 Figuring out what to ignore and what to version in a Visualizer project is the subject of many questions. The cross-platform nature of Visualizer makes for a very complex project anatomy. I've done my best to experiment with different versions of Visualizer and document my findings here. If you just want to get started quickly and all you need is a `.gitignore` file, then step into the root directory of your Visualizer project and run:
