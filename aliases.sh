@@ -18,7 +18,6 @@ git config --global alias.unmute 'update-index --no-assume-unchanged'
 git config --global alias.zip '!git clean -fXd && git archive --format zip -9 HEAD --output $1 && ls -lh $1'
 
 # To download the .gitingore and .gitattributes into the current localtion.
-git config --global alias.visinit '!curl -L http://bit.ly/visgitignore -o .gitignore &&\
-  curl -L http://bit.ly/visgitattributes -o .gitattributes'
+git config --global alias.visinit '!curl -L http://bit.ly/visgitignore -o .gitignore && curl -L http://bit.ly/visgitattributes -o .gitattributes'
 
 echo "Done: Git aliases for Visualizer"
