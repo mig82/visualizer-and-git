@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 #############################################################
 # From https://github.com/mig82/visualizer-and-git          #
 # @Author: Miguelangel Fernandez                            #
