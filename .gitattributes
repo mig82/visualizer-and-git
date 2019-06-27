@@ -1,3 +1,8 @@
+#############################################################
+# From https://github.com/mig82/visualizer-and-git          #
+# @Author: Miguelangel Fernandez                            #
+#############################################################
+
 # Project settings.
 projectProperties.json filter=kony_projectProperties
 projectprop.xml filter=kony_projectprop
