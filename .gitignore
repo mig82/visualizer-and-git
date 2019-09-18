@@ -159,3 +159,6 @@ syncclientcode.zip
 
 # Viskit code review tool. Read more at https://www.npmjs.com/package/viskit
 /.viskit
+
+# Don't track legacy action migration files.
+/upgrade_actions_*.properties
