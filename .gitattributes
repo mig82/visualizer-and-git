@@ -19,9 +19,8 @@ HeadlessBuild.properties filter=kony_headless_props
 # Clean javascript files from all lines containing nothing but white spaces and tabs.
 #modules/**/*.js filter=rm_whiteline
 
-# Prettify and sort the file where Visualizer stores the Fabric services config.
-mobileFabricServiceConfigMap.json filter=pretty_json
-objectServicesConfigMap.json filter=pretty_json
+# Prettify and sort other config files.
+globalVariables.json filter=pretty_json
 
 # Filter out the url and filepath properties in Native API mappings.
 nativeapi.json filter=kony_native_api_json
