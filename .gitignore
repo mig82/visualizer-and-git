@@ -78,7 +78,7 @@ resources/tablet/native/androidtab/values/widgetids.xml
 # NPM dependencies folder which gets created for apps using the "Nitro" Cordova integration
 # when you choose NOT to use a globally installed Cordova SDK by unchecking
 # `Project Settings>Application>Cordova Settings>Use globally installed Cordova version`.
-node_modules
+/node_modules
 
 # When using the "Nitro" Cordova integration, the Cordova `plugins` and `platforms`
 # directories can be ignored as with any Cordova project.
