@@ -179,3 +179,6 @@ syncclientcode.zip
 # Storyboard and storyboard thumbnail images in v9+
 /forms/**/*.sm/.thumbs
 /.storyboard
+
+# Don't track action controllers. They can be regenerated at build time.
+/**/*ControllerActions.js
