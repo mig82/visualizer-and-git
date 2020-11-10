@@ -164,8 +164,11 @@ syncclientcode.zip
 /upgrade_actions_*.properties
 
 # Snapshots of the Kony Fabric app services associated with the project.
+/mobileFabricRulesServiceConfigMap.json
 /mobileFabricServiceConfigMap.json
 /objectServicesConfigMap.json
+/Fabric
+/temp
 
 # Action editor generated javascript files are recreated by Vis. Only the JSON files need to be versioned.
 /actions/*/*.js
