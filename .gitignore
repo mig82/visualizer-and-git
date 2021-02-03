@@ -184,3 +184,7 @@ syncclientcode.zip
 
 # Don't track action controllers. They can be regenerated at build time.
 /**/*ControllerActions.js
+
+# AI assisted dev reports
+outputFile.html
+outputFile.json
