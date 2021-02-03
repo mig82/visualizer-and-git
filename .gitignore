@@ -68,8 +68,11 @@ HeadlessBuild-Global.properties
 /nativebindings/iOS/*/Kony_FileStorage-iOS-*/tern.json
 
 # Out-of-the-box Kony SDK Commons
-/nativebindings/Android/4.0/Kony_SDKCommons-Android-*
+/nativebindings/Android/*/Kony_SDKCommons-Android-*
 /nativebindings/iOS/*/Kony_SDKCommons-iOS-*
+
+# Out-of-the-box NFI findings for logging.
+nativebindings/Android/*/java.util.logging-Android-*/
 
 # Auxiliary files generated during a build to expose the widget ID's for testing.
 resources/mobile/native/android/values/widgetids.xml
