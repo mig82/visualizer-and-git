@@ -140,6 +140,9 @@ resources/customlibs/jsSrc/*/WindowsOfflineObjects.*
 resources/customlibs/jsXml/*/WindowsOfflineObjects.*
 resources/customlibs/lib/sdkcommon/offlineobjects.zip
 
+# Binary data stuff
+resources/customlibs/jsSrc/*/binarydata.*
+
 # Auto-generated project setting files. Generated the first time you save project settings, even if no changes were made.
 /_clouddata/
 /appSettings.xml
