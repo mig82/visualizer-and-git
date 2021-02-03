@@ -178,7 +178,9 @@ syncclientcode.zip
 
 # Storyboard and storyboard thumbnail images in v9+
 /forms/**/*.sm/.thumbs
-/.storyboard
+
+# Versioning the storyboard file is useful if you're using "fake" navigation arrows.
+#/.storyboard
 
 # Don't track action controllers. They can be regenerated at build time.
 /**/*ControllerActions.js
