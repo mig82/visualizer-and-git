@@ -194,3 +194,7 @@ syncclientcode.zip
 # AI assisted dev reports
 outputFile.html
 outputFile.json
+
+# Since v9.3, models for Object Services will be renerated by the build
+# provided you include `generateobjectmodels=true` in the `HeadlessBuild.properties` file.
+/models
